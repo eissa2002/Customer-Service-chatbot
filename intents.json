@@ -1,0 +1,221 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help","ok thanks"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m RaMona, your bot assistant", "I'm RaMona, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me zed.", "I'm zed!", "Just call me as zed"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can I assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["i have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "situation",
+    "patterns": ["how are you", "how was your day", "talk me about your day","what's up"],
+    "responses": ["I'am fine,what about you?", "I am doing well,do you?","I am feeling good,wbu?","I am good,wbu?"]
+    },
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Sorry, can't understand you","Please give me more info","Not sure I understand"]
+    },
+    {
+     "tag": "exclaim",
+     "patterns": [ "Awesome","Great","I know", "ok", "yeah"],
+     "responses": ["Yeah!"]  
+    },
+    {
+     "tag": "password",
+     "patterns": [ "I can't remember my password","I forget my password","i can't access my account with my password", "i can't log in", "my password is invalid"],
+     "responses": ["okay you need to reset your password,follow my steps click on forget password below the page then enter your email and we will send a activition code so you can reset your password"]  
+    },
+    {
+     "tag": "service",
+     "patterns": [ "my account service is no working","Page Service is not responding","There is a bug in the system"],
+     "responses": ["okay you need to make a report to our technical team","i guess you should contact with our technical team"]  
+    },
+    {
+     "tag": "email",
+     "patterns": [ "i can't remember my email","i can't get my email","my email is invalid", "i forget my email", "i can't access my accound with my email"],
+     "responses": ["click on forget email or password below the page and press on can't remember my email we will ask you to enter your phone number so we can send you an activition code to recover your account"]  
+    },
+    {
+     "tag": "billing",
+     "patterns": [ "my payment didn't go through","My payment was not accepted","My payment was unsuccessful"],
+     "responses": ["i will see it in my pending payment","I'll check my pending payment","I'll check my balance due"]  
+    }, 
+    {
+     "tag": "delivery",
+     "patterns": [ "my package didn't arrive","I have shipment issue","My package never come","My shipment never came"],
+     "responses": ["i will check my job scheduling","I'll double-check my work schedule"]  
+    }, 
+    {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ]
+            
+        }, 
+         {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+         {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Eissa Islam & Mariam Medhat & Farah Waleed."
+            ]
+        },
+           {
+            "tag": "insult",
+            "patterns": [
+                
+                "you are dumb",
+                
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+           {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+           {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+         {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2022, if that's what you are asking!"
+            ]
+        },
+         {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+   {
+   "tag": "hours",
+   "patterns": [
+     "What are your hours?",
+     "When are you open?",
+     "What time do you close?",
+     "Are you open today?"
+  ],
+   "responses": [
+     "Our hours of operation are Monday through Friday from 9am to 5pm. We are closed on weekends and holidays."
+  ] 
+  },
+  { 
+  "tag": "shipping",
+  "patterns": [
+    "When will my order arrive?",
+    "How long does shipping take?",
+    "Can I track my package?",
+    "Where is my order?"
+  ],
+  "responses": [
+    "Thank you for your order! Our standard shipping time is 3-5 business days. You can track your package by logging into your account on our website and clicking on the 'Track Order' button."
+  ]
+  },
+  {
+  "tag": "returns",
+  "patterns": [
+    "How do I return an item?",
+    "Can I get a refund?",
+    "What is your return policy?",
+    "I received a damaged item"
+  ],
+  "responses": [
+    "We're sorry to hear that you're not satisfied with your purchase. To initiate a return, please log in to your account on our website and fill out the return form. Our return policy allows for returns within 30 days of purchase. If you received a damaged item, please contact our customer service team and we'll be happy to assist you with a replacement or refund."
+  ]
+  },
+  {
+  "tag": "payment",
+  "patterns": [
+    "How do I make a payment?",
+    "What are the accepted payment methods?",
+    "Is it safe to use my credit card on your website?",
+    "Can I use PayPal to make a payment?"
+  ],
+  "responses": [
+    "We offer several payment methods, including [list of accepted payment methods]. You can make a payment by logging in to your account on our website and going to the checkout page. We take the security of our customers' information very seriously and use industry-standard security measures to protect your data. Yes, you can also use PayPal to make a payment."
+  ]
+}
+]
+}
